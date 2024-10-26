@@ -3,7 +3,7 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 
 #FM
-BOARD_HAVE_QCOM_FM ?= false
+BOARD_HAVE_QCOM_FM := true
 
 ifneq ($(filter sdm660 msm8998, $(TARGET_BOARD_PLATFORM)),)
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
